@@ -1,6 +1,7 @@
 <nav class="navbar">
     <ul class="nav-list">
-        <li class="nav-list-item"><a class="<%= path === '/' ? 'nav-item-active' : 'nav-item-inactive' %>" href="/">Shop</a></li>
+        <li class="nav-list-item"><a class="<%= path === '/' || path === '/success' ? 'nav-item-active' : 'nav-item-inactive' %>" href="/">Shop</a></li>
         <li class="nav-list-item"><a class="<%= path === '/admin/add-product' ? 'nav-item-active' : 'nav-item-inactive' %>" href="/admin/add-product">Add Product</a></li>
+        <li class="nav-list-item"><a class="<%= path === '/contact' ? 'nav-item-active' : 'nav-item-inactive' %>" href="/contact">Contact Us</a></li>
     </ul>
 </nav>

@@ -1,6 +1,6 @@
 let product = [];
 
-exports.getAddProducts = (req, res) => {
+exports.getAddProducts = (req, res, next) => {
     res.render('add-product', 
         {
             pageTitle: 'Add Product',
