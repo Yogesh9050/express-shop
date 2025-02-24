@@ -30,14 +30,20 @@
     list-style: none;
 }
 
-.nav-list-item a{
+.nav-item-inactive{
     text-decoration: none;
     color: black;
     font-size: larger;
 }
 
-.nav-list-item a:hover{
+.nav-item-inactive:hover{
     color: white;
+}
+
+.nav-item-active{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
 }
 
 main{

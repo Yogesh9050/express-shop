@@ -1,0 +1,35 @@
+.add-product-form{
+    display: flex;
+    gap: 25px;
+}
+
+.add-product-form input{
+    width: 35vw;
+    padding: 10px;
+    border: none;
+    border: 1px solid orange;
+    border-radius: 2px;
+}
+
+.add-product-form input::placeholder{
+
+    columns: grey;
+    font-weight: 400;
+}
+
+.add-product-form button{
+    width: 10vw;
+    height: 40px;
+    border: none;
+    color: antiquewhite;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: orange;
+    border: 0.7px solid rgb(240, 118, 3);
+}
+
+.add-product-form button:hover{
+    border: 1px solid orange;
+    background-color: transparent;
+    color: black;
+}
